@@ -1,5 +1,5 @@
 
-package problem;
+package recursion;
 
 import java.util.Scanner;
 
