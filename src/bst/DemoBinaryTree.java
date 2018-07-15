@@ -30,5 +30,9 @@ public class DemoBinaryTree {
         MyBinaryTree mbt = new MyBinaryTree(n6);
         
         mbt.preOrder(mbt.root);
+        System.out.println();
+        mbt.inOrder(mbt.root);
+        System.out.println();
+        mbt.postOrder(mbt.root);
     }
 }

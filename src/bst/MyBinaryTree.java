@@ -24,4 +24,21 @@ public class MyBinaryTree {
         preOrder(root.left);
         preOrder(root.right);
     }
+    
+    public void inOrder(TreeNode root){
+        if(root==null)return;
+        
+        inOrder(root.left);
+        visit(root);
+        inOrder(root.right);
+        
+    }
+    public void postOrder(TreeNode root){
+        if(root==null)return;
+        
+        inOrder(root.left);
+        inOrder(root.right);
+        visit(root);
+        
+    }
 }
